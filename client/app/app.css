@@ -1,0 +1,468 @@
+
+/**
+ * Bootstrap Fonts
+ */
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot');
+  src: url('../bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+  url('../bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'),
+  url('../bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+  url('../bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+/**
+ *Font Awesome Fonts
+ */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../bower_components/font-awesome/fonts/fontawesome-webfont.eot?v=4.1.0');
+  src: url('../bower_components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'),
+  url('../bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'),
+  url('../bower_components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'),
+  url('../bower_components/font-awesome/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**
+ * App-wide Styles
+ */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.seatsmainconteiner{
+  width:100%;
+  text-align:center;
+}
+.seatmainwrapper{
+  width:80%;
+  margin:0 auto;
+  border:1px solid gray;
+}
+.seatbookingbox{
+  border:1px solid #D2D7D3;
+  margin:60px 20px;
+      padding: 10px 20px;
+	  border-radius:6px;
+}
+.seatname{
+  padding:14px 7px;
+  background-color:#D2D7D3;
+  margin:5px;
+  border-radius:3px;
+  color:gray;
+  font-size:12px;
+  cursor:pointer;
+  text-align: center;
+}
+.seatname:hover{
+  background-color:#26A65B;
+  color:white;
+}
+.after-box {
+    clear: left;
+}
+
+.grey{
+  background-color:gray;
+  color:white;
+}
+
+.red{
+  background-color: #4d4d33;
+}
+.d1{
+  background-color:#26A65B;
+  color:white;
+}
+
+.d2{
+  border: 2px solid black;
+  background-color: white;
+}
+.row{
+margin:0 !important;
+}
+.mainViewConteiner{
+	margin-top:51px;
+}
+.navbar-inverse{
+	background-color:#2C82C9 !important;
+	border-color:transparent !important;
+}
+.navbar-nav{
+	margin: 0 0 0 42px !important;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color:white !important;
+}
+.navbar-inverse .navbar-nav > .active > a{
+	background-color:#1DABB8 !important;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+	background-color:#1DABB8 !important;
+}
+.carousel-inner > .item > img{
+	width:100% !important;
+	height: 600px !important;
+}
+.yellowbar{
+	width: 40px;
+    height: 2px;
+    background: #EAB34A;
+    margin: 15px auto 0;
+}
+.welcomeTextContainer{
+	text-align:left;
+	border-bottom: 1px solid #BFBFBF;
+}
+.welcomeText h1{
+	    font-size: 18px !important;
+    font-weight: 400 !important;
+    color: #2c3946 !important;
+}
+.welcomeTextContainer .glyphicon-play-circle{
+	margin-right:10px;
+	top:3px;
+	color: #2C82C9 !important;
+}
+.carousel{
+	border-bottom:3px solid #EAB34A !important;
+}
+.nowShowingContainer{
+	margin-top:40px;
+}
+.nowShowingItems{
+	background-color:white;
+	text-align:center;
+	width:220px;
+	padding: 10px 0 0 0;
+	border: 1px solid #EB6361;
+	border-radius:6px;
+}
+.nowShowingItems img{
+	width:200px;
+	height:auto;
+}
+.contentMainContainer{
+	background-image:url('../../../assets/images/bg.png');
+	width:100%;
+	text-align:center;
+	padding-bottom: 50px;
+}
+.contentMainwapper{
+	width:80%;
+	margin:0 auto;
+}
+.movieTitle{
+	font-size:18px;
+	font-weight:400;
+	margin: 10px;
+	text-align:left;
+	color:#6C7A89;
+}
+.bookNowAction{
+	position:relative;
+}
+.watchTrailerButton{
+    position: absolute;
+    top: 0;
+    right: 3px;
+    background: transparent;
+    border: transparent;
+}
+.bookNowAction .glyphicon-play-circle{
+	    font-size: 29px;
+		color:red;
+}
+.bookNowAction .glyphicon-play-circle:hover{
+	color:#F22613;
+}
+.bookNowButton{
+margin-top: 20px;
+    background-color: #EB6361;
+    border: none;
+    color: white;
+    padding: 10px 0px;
+    width: 100%;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px
+}
+.bookNowButton:hover{
+	background-color:#CF000F;
+}
+.footerContainer{
+	text-align:center;
+		background-color:black;
+}
+.footerWrapper{
+	margin:0 auto;
+	width:80%;
+	padding:20px;
+	color:white;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+	padding:0 !important;
+}
+.infoPageMainContainer{
+	width:100%;
+	margin-top:50px;
+	text-align:center;
+}
+.infoPageMainwrapper{
+	width:80%;
+	margin:0 auto;
+	padding:50px;
+}
+.moviepostercontainer{
+	text-align:center;
+}
+.movieposter{
+    width: 300px;
+    height: 300px;
+    border: 10px solid #D2D7D3;
+    border-radius: 186px;
+	margin:0 auto;
+	box-shadow: 4px 3px 9px grey;
+}
+.bookingheadings{
+
+text-align:left;
+}
+.bookingheadingstext{
+	border-bottom:1px solid #D2D7D3;
+	margin-bottom:15px;
+}
+.bookingheadingstext p{
+font-size:18px;	
+color:#2C82C9;
+}
+.bookingheadingstext .glyphicon{
+	font-size:30px;
+	top: 12px;
+	margin-right:10px
+}
+.timetable-div .badge{
+	background-color: #D24D57 !important;
+}
+.bookedmovieinfo{
+	text-align:left;
+}
+.bookedmovietitle{
+    font-size: 25px;
+    color: gray;
+    margin-top: 20px;
+    border-bottom: 1px solid #BDC3C7;
+}
+.bookedmovieoverview {
+font-size:12px;
+	color:#6C7A89;
+	margin-top:5px;
+}
+.rate{
+	font-size:14px;
+	color:#6C7A89;
+	margin-top:5px;
+}
+.rate label{
+	margin:0px 5px;
+}
+.seatcatcontainer{
+	text-align:center;
+	margin:15px 0px;
+	font-size:25px;
+	color:#446CB3;
+}
+.seatcatcontainer p{
+	margin:0 auto !important;
+}
+.headingborder{
+	height:3px;
+	width:50px;
+	background-color:#2C3E50;
+	margin:0 auto;
+}
+.well{
+	min-height: 0px !important; 
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+}
+.well select{
+	width:150px !important;
+	margin: 0px 10px !important;
+	padding:5px;
+	border:1px solid gray;
+	border-radius:4px;
+	color:gray;
+}
+.userbookingsummarycontainer{
+	border: 1px solid #d2d7d3;
+    margin: 60px 20px;
+    border-radius: 6px;
+}
+.userbookingsummarywrapper{
+padding: 10px 20px;
+}
+.summaryHeader{
+	background-color:#EAB34A;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	padding:10px;
+	    font-size: 18px;
+    font-weight: bold;
+}
+.userbookingsitems{
+	padding:10px 0px;
+	border-bottom:1px solid #BDC3C7;
+	color:gray;
+	font-size:14px;
+}
+.userbookingsitemlabel{
+	font-weight:bold;
+	margin-right:10px;
+}
+.grantotalcontainer{
+	margin:10px 0px;
+	font-size:25px;
+	color:gray;
+	font-weight:bold;
+}
+.summarygrandtotal{
+	margin-right:10px;
+}
+.bookingsummarybutton{
+	background-color:#D64541;
+	border:none;
+	border-radius:4px;
+	margin:10px 0px;
+	padding:5px 10px;
+	color:white;
+	font-weight:bold;
+	font-size:16px;
+}
+.paymentbooking{
+	margin:20px;
+}
+.bookingPanel{
+	margin:10px;
+	border:1px solid #d2d7d3;
+	border-radius:6px;
+text-align: left;
+}
+.bookingpanelwrapper{
+padding:10px;
+}
+.formCont{
+	border-bottom:1px solid #d2d7d3;
+	padding: 10px;
+	text-align:left;
+}
+.carddetailslabel{
+	color:gray;
+	font-size:14px;
+}
+.selectpicker{
+	border:1px solid gray;
+	border-radius:4px;
+	height: 26px;
+	margin-right:10px;
+
+}
+.usercvv{
+	width:50px;
+	border:1px solid gray;
+	border-radius:4px;
+	padding:2px;
+}
+.summarygrandtotal1{
+	font-size: 18px;
+    color: gray;
+    font-weight: 700;
+}
+.confPoster img{
+width: 188px;
+    height: auto;
+    margin: 10px;
+}
+.instrucontain{
+	border:1px solid gray;
+	border-radius:6px;
+	text-align:left;
+	padding:20px;
+	margin:20px ;
+	color:gray;
+}
+.instc{
+	font-weight:bold;
+	font-size:18px;
+}
+.confmmessage{
+	margin:20px;
+	font-size:30px;
+	color:gray;
+}
+.adminpanleContainer{
+	margin-top:50px;
+	background-color:#BDC3C7;
+	border-bottom:4px solid #1dabb8;
+	text-align:center;
+	width:100%;
+	padding: 20px 0 0 0;
+}
+.adminpanleWrapper{
+	width:80%;
+	margin:0 auto;
+}
+.adminpanleWrapper ul {
+position: relative;
+bottom: -10px;
+}
+.adminpanleWrapper ul li{
+	display:inline-block;
+	width: 20%;
+	background-color:#1dabb8;
+	padding:8px 0px;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+}
+.adminpanleWrapper ul .active{
+	background-color:#EAB34A;
+}
+.adminpanleWrapper ul li a{
+	text-decoration:none;
+	color:white;
+}
+.omdbsearchmoviebutton{
+	text-align:center;
+}
+.searchedresult{
+	border:1px solid gray;
+	border-radius:6px;
+	padding:15px;
+}
+.fromTheatre  .selectpicker{
+	display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+}
+.mappedmovies{
+	border:1px solid gray;
+	margin:20px;
+	padding:20px;
+	border-radius:6px;
+}
